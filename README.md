@@ -145,7 +145,25 @@ live-image-amd64.hybrid.iso
 
 ## Heimdall Desktop
 
-(Add screenshots here later)
+![Desktop](Screenshots/Screenshot%202026-02-24%20234554.png)
+
+---
+
+## Wireshark Packet Analysis
+
+![Wireshark](Screenshots/Screenshot%202026-02-24%20235626.png)
+
+---
+
+## Autopsy Forensics
+
+![Autopsy](Screenshots/Screenshot%202026-02-25%20000107.png)
+
+---
+
+## Directory
+
+![Directory](Screenshots/Screenshot%202026-02-25%20000233.png)
 
 ---
 
