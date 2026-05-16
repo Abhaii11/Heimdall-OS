@@ -5,3 +5,10 @@ chroot/
 *.img
 *.tar
 *.squashfs
+.build/
+cache/
+*.iso
+*.tar
+binary*
+chroot.files
+live-image-amd64.*
