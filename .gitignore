@@ -1,0 +1,7 @@
+binary/
+cache/
+chroot/
+*.iso
+*.img
+*.tar
+*.squashfs

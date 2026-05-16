@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+# Enable login consoles
+systemctl enable getty@tty1.service
+systemctl enable getty@tty2.service
+systemctl enable getty@tty3.service
+
+# Ensure live user exists
+id user || useradd -m user
+
+# Allow auto-login (optional but recommended)
+mkdir -p /etc/systemd/system/getty@tty1.service.d
+
+cat <<EOF > /etc/systemd/system/getty@tty1.service.d/override.conf
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --autologin user --noclear %I \$TERM
+EOF

@@ -1,0 +1,9 @@
+xfce4
+xfce4-goodies
+lightdm
+lightdm-gtk-greeter
+xorg
+dbus-x11
+network-manager
+network-manager-gnome
+policykit-1

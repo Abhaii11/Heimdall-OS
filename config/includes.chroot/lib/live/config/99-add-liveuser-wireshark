@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# This runs at boot when the live user exists
+usermod -aG wireshark user || true

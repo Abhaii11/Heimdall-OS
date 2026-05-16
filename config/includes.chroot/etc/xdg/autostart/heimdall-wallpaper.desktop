@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Heimdall Wallpaper
+Exec=/usr/local/bin/set-wallpaper.sh
+OnlyShowIn=XFCE;
+X-GNOME-Autostart-enabled=true
